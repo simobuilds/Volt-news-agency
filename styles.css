@@ -1,0 +1,59 @@
+styles.css
+h3 {
+    display: block;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 20px auto;
+    background-color: #ff8c00;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  h3:hover {
+    background-color: #ff7f00;
+  }
+  
+  body {
+      font-family: 'Inter', sans-serif;
+  }
+  .agent-section {
+      background-color: #f8f9fa;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+  }
+  .agent-section h2 {
+      margin-bottom: 15px;
+      color: #0078d7;
+  }
+  .agent-section p {
+      margin-bottom: 10px;
+      line-height: 1.6;
+  }
+  .agent-section ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin-bottom: 10px;
+  }
+  .agent-section li {
+      margin-bottom: 5px;
+  }
+  .important-note {
+      background-color: #fff3cd;
+      border-left: 6px solid #ff851b;
+      padding: 12px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      font-style: italic;
+      color: #66512c;
+  }
+
+  #redone {
+    color: red;
+  }
