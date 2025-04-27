@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Trading Agent</title>
+    <meta name="description" content="An agent to help with news trading, including P/E ratio and EPS analysis.">
+    <meta name="keywords" content="news trading, agent, P/E ratio, EPS, fundamental analysis, market sentiment">
+    <meta name="author" content="AI Assistant">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-vBvE+63L8xEStk6oX5CsX79v+0ls/JDWvPVDj/i99ZO=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1nqE5ycFOhaXwzTz7usj7Bv9k9dU" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">News Trading Agent</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="agent-info.html">Agent Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#html-template">HTML Template</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="building-company.html">Company Building</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Risk-considerations.html">Risk considerations</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h1>News Trading Agent</h1>
+                <p class="lead">This page provides information about a news trading agent designed to assist in analyzing market sentiment and predicting price movements.</p>
+            </div>
+        </div>
+
+        <section id="agent-info" class="agent-section">
+            <h2>Enhanced Fundamental & Sentiment Analysis Agent (EFSAA)</h2>
+            <p>
+                The Enhanced Fundamental & Sentiment Analysis Agent (EFSAA) is designed to provide in-depth insights into market sentiment and potential price movements.  It analyzes a wide range of fundamental data, including P/E ratios and EPS, combined with news events, and presents this information on a user-friendly HTML page.
+            </p>
+
+            <h3>Agent Responsibilities:</h3>
+            <ul>
+                <li><strong>Data Acquisition:</strong>
+                    <ul>
+                        <li>Fetches real-time financial news.</li>
+                        <li>Gathers historical and current P/E ratios.</li>
+                        <li>Collects expected and actual EPS figures.</li>
+                        <li>Accesses economic calendars.</li>
+                        <li>Obtains historical and current data on shares outstanding.</li>
+                        <li>Retrieves other relevant financial data (revenue growth, operating margins, etc.).</li>
+                    </ul>
+                </li>
+                <li><strong>Fundamental Analysis:</strong>
+                    <ul>
+                        <li><strong>P/E Ratio Analysis:</strong> Compares current and historical P/E ratios, analyzes trends, and compares to industry peers.</li>
+                        <li><strong>EPS Analysis:</strong> Compares actual vs. expected EPS, analyzes growth trends, and evaluates sustainability.</li>
+                        <li><strong>Shares Outstanding Analysis:</strong> Tracks changes in shares outstanding and their impact on EPS.</li>
+                        <li><strong>Earnings Quality Analysis:</strong> Assesses the sustainability of earnings.</li>
+                         <li><strong>Debt and Financial Health:</strong>  Analyzes debt-to-equity ratio and overall financial health.</li>
+                         <li><strong>Peer Comparison:</strong>  Compares company ratios to industry peers.</li>
+                    </ul>
+                </li>
+                <li><strong>News and Event Correlation:</strong> Correlates news with fundamental data changes and analyzes market reactions.</li>
+                <li><strong>Sentiment Assessment:</strong> Assesses overall market sentiment based on fundamental data, news, analyst ratings, and market volatility.</li>
+                <li><strong>Price Movement Prediction:</strong> Predicts potential short-term and medium-term price movements and estimates price targets.</li>
+                <li><strong>Output and Reporting (HTML Page):</strong> Generates a dynamic HTML page to display analyzed information.</li>
+            </ul>
+        </section>
+
+       
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function(){
+            $("#myButton").click(function(){
+                alert("Hello from jQuery!");
+            });
+        });
+    </script>
+</body>
+</html>
